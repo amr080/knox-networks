@@ -56,9 +56,9 @@ Knox Networks is backed by industry renown board members, c-suite executives and
 
 
 https://scventures.io/fintechbridge/company/6410
-
-
-
+https://knox-networks.github.io/rust-workshop/
+https://knox-networks.github.io/nix-slides/
+https://knox-networks.github.io/
 
 
 
