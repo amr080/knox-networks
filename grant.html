@@ -1,0 +1,2289 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:sec="http://www.thymeleaf.org/extras/spring-security"
+    xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" data-layout-decorate="~{decorators/detail}">
+
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+ <!-- check for null -->
+		
+<link rel="stylesheet" type="text/css" href="https://nsf-gov-resources.nsf.gov/unified-nav/styles-isolated-awardsearch.css" />
+<link rel="stylesheet" type="text/css" href="css/as.css" >
+<link rel="stylesheet" type="text/css" href="css/style1.css" >
+<link rel="stylesheet" type="text/css" href="css/showAwards.css" >
+<link rel="stylesheet" type="text/css" href="css/gallerificPlus.css">
+
+
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+<!-- <script type="text/javascript" src="js/jquery-1.7.min.js" data-th-src="@{js/jquery-1.7.min.js}"></script> -->
+<script type="text/javascript" src="js/jquery.hoverIntent.minified.js"></script>
+<script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='js/slides.min.jquery.js'></script>
+<script type="text/javascript" src="js/jquery.selectbox.js"></script>
+<script type='text/javascript' src='js/init.js'></script>
+<script type="text/javascript" src="js/iw_gallerificPlus.js"></script>
+<script type="text/javascript" src="js/iw_custom.js"></script>
+
+<!-- Digital Analytics program (DAP) -->
+<script async="async" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NSF&amp;ver=true&amp;exts=doc,docx,xls,xlsx,xlsm,ppt,pptx,exe,zip,pdf,js,txt,csv,dxf,wmv,jpg,wma,mov,avi,mp3,mp4,csv" type="text/javascript" ></script>
+
+<!-- Google Tool Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&l='+l:'';j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'&gtm_auth=g18KstQIuISFV7R8jqLFKQ&gtm_preview=env-1&gtm_cookies_win=x';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WSDBJPS');</script>
+
+
+
+
+<title> NSF Award Search: Award # 2341319 - SBIR Phase I:  File-Based Digital Assets </title>
+</head>
+
+<body class="detailbody">
+    <!-- Google Tool Manager -->
+    <noscript><iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-WSDBJPS&gtm_auth=g18KstQIuISFV7R8jqLFKQ&gtm_preview=env-1&gtm_cookies_win=x"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+
+    <div><div>
+  
+<!-- page--unified-header: Mon, 10 Feb 2025 21:38:48 -0500 -->
+
+<header class="usa-header usa-header--basic usa-header--megamenu is-unified-nav-header" id="header" role="banner">
+
+  
+      
+<section class="usa-banner" aria-label="Official website of the United States government">
+  <div class="usa-accordion">
+    <div class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img
+            aria-hidden="true"
+            class="usa-banner__header-flag"
+            src="https://nsf-gov-resources.nsf.gov/unified-nav/us_flag_small.png"
+            alt=""
+          />
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action">Here's how you know</p>
+        </div>
+        <button type="button" class="usa-accordion__button usa-banner__button"
+                aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here's how you know</span>
+        </button>
+      </div>
+    </div>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="https://nsf-gov-resources.nsf.gov/unified-nav/icon-dot-gov.svg" alt="" aria-hidden="true">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong>
+              <br>
+              A <strong>.gov</strong> website belongs to an official government organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="https://nsf-gov-resources.nsf.gov/unified-nav/icon-https.svg" alt="" aria-hidden="true">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS.</strong>
+              <br>
+              A <strong>lock</strong>
+              (<span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-description" focusable="false"><title id="banner-lock-title-default">Lock</title><desc id="banner-lock-description">Locked padlock</desc><path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"></path></svg></span>)
+              or <strong>https://</strong> means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+      <section class="section__header-top">
+        <div class="region region-header-top">
+    
+
+
+
+  <div class="alert--full--wrapper usa-alert__bg-warning">
+
+  <div class="usa-alert  usa-alert--warning alert--full usa-alert--slim   "  id="block-welcometobeta-unified" data-component-id="nsf_theme:alert">
+
+          <div class="alert--full--inner grid-container">
+    
+      
+      
+
+      <div class="usa-alert__body message-content">
+                <div class="usa-alert__text">
+
+
+                    <div class="clearfix text-formatted field body"><p><a href="https://new.nsf.gov/executive-orders">Learn about NSF's implementation of recent executive orders.</a></p></div>
+            
+                  </div>
+      </div>
+
+          </div>
+      </div>
+
+  </div>
+
+  </div>
+
+    </section>
+  
+    <section class="primary-menu">
+
+        <div class="usa-nav-container">
+      
+      <div class="usa-navbar">
+
+          <div class="region region-header">
+    
+
+  
+<div id="block-nsf-theme-branding">
+    <div class="usa-logo">
+      
+
+<a class="logo logo-img" href="/" title="NSF - National Science Foundation - Home" aria-label="Home">
+  <div class="logo__wrapper logo--desktop">
+    <img src="https://nsf-gov-resources.nsf.gov/unified-nav/logo-desktop.svg" alt="NSF - National Science Foundation - Home" class="logo__image logo__item" />
+  </div>
+  <div class="logo__wrapper logo--mobile">
+    <img src="https://nsf-gov-resources.nsf.gov/unified-nav/logo-mobile.svg" alt="NSF - National Science Foundation - Home" class="logo__image logo__item"/>
+  </div>
+</a>
+
+    </div>
+</div>
+
+  </div>
+
+
+        <div class="usa-navbar__buttons">
+          <button type="button" class="usa-button usa-navbar__buttons-search">
+            <span class="usa-sr-only">
+              Search
+            </span>
+          </button>
+
+          <button type="button" class="usa-menu-btn usa-navbar__buttons-menu">Menu</button>
+        </div>
+
+      </div>
+
+      <div class="usa-overlay"></div>
+      <nav class="usa-nav" role="navigation">
+        <div class="usa-nav-inner">
+
+          <button type="button" class="usa-nav__close">
+            <img src="https://nsf-gov-resources.nsf.gov/unified-nav/close-base-darkest.svg" alt="Close navigation" />
+          </button>
+
+                        <div class="region region-primary-menu">
+    
+<section>
+  <div id="block-sitesearch" class="block block-block-content block-block-contentd8573fbc-c73e-43c3-9b1c-d9e6f0ce33bb block-sitesearch">
+    
+    
+          
+
+
+                    <div class="clearfix text-formatted field body"><form accept-charset="UTF-8" action="https://search.nsf.gov/search" aria-label="Site" class="site-search" id="search1" method="get" name="siteSearchForm" role="search">
+  <label class="usa-sr-only usa-label" for="QueryText">Search</label>
+  <input class="usa-input" id="QueryText" name="query" placeholder="Search NSF" title="search" type="text">
+  <input id="affiliate" name="affiliate" type="hidden" value="nsf">
+  <button class="search-btn" name="search" type="submit"><span class="usa-sr-only">search</span>
+  </button>
+</form></div>
+            
+      </div>
+</section>
+
+  
+  
+          <ul class="usa-nav__primary usa-accordion">
+    
+                
+                      <li class="usa-nav__primary-item find-funding--apply">
+      
+              <button type="button" class="usa-accordion__button usa-nav__link
+          " aria-expanded="false" aria-controls="basic-mega-nav-section-1">
+          <span>Find Funding &amp; Apply</span>
+        </button>
+      
+                
+  
+          <div id="basic-mega-nav-section-1" class="usa-nav__submenu usa-megamenu" hidden="">
+
+      
+        <div class="grid-row grid-gap-3">
+    
+                
+                                      <div class="usa-col ">
+
+                              <div class="usa-nav__submenu-item">
+              <span class="usa-nav__submenu-item-dupe-parent">Where to Start</span>
+            </div>
+                  
+      
+      
+                
+  
+          <ul class="usa-nav__submenu-list">
+
+          
+                
+                      <li class="usa-nav__submenu-item for-all-researchers--educators">
+      
+      
+      
+                  <a href="https://www.nsf.gov/funding/getting-started">
+            <span>For All Researchers &amp; Educators</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item for-early-career-researchers">
+      
+      
+      
+                  <a href="https://www.nsf.gov/funding/early-career-researchers">
+            <span>For Early-career Researchers</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item for-postdoctoral-fellows">
+      
+      
+      
+                  <a href="https://www.nsf.gov/funding/postdocs">
+            <span>For Postdoctoral Fellows</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item for-graduate-students">
+      
+      
+      
+                  <a href="https://www.nsf.gov/funding/graduate-students">
+            <span>For Graduate Students</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item for-undergraduates">
+      
+      
+      
+                  <a href="https://www.nsf.gov/funding/undergraduates">
+            <span>For Undergraduates</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item for-entrepreneurs">
+      
+      
+      
+                  <a href="https://www.nsf.gov/funding/entrepreneurs">
+            <span>For Entrepreneurs</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item for-industry">
+      
+      
+      
+                  <a href="https://www.nsf.gov/funding/industry">
+            <span>For Industry</span>
+          </a>
+        
+      
+              </li>
+      
+    
+          </ul>
+    
+  
+
+      
+              </div>
+      
+                
+                                      <div class="usa-col ">
+
+                              <div class="usa-nav__submenu-item">
+              <span class="usa-nav__submenu-item-dupe-parent">Explore Funding</span>
+            </div>
+                  
+      
+      
+                
+  
+          <ul class="usa-nav__submenu-list">
+
+          
+                
+                      <li class="usa-nav__submenu-item search-all-opportunities">
+      
+      
+      
+                  <a href="https://www.nsf.gov/funding/opportunities">
+            <span>Search All Opportunities</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item by-directorate">
+      
+      
+      
+                  <a href="https://www.nsf.gov/funding/find-by-directorate">
+            <span>By Directorate</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item by-upcoming-due-date">
+      
+      
+      
+                  <a href="https://www.nsf.gov/funding/opportunities?sort=nsf_funding_upcoming_due_dates_DESC">
+            <span>By Upcoming Due Date</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item nsf-wide-initiatives">
+      
+      
+      
+                  <a href="https://www.nsf.gov/funding/initiatives">
+            <span>NSF-wide Initiatives</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item search-funded-projects-awards">
+      
+      
+      
+                  <a href="https://www.nsf.gov/awardsearch/">
+            <span>Search Funded Projects (Awards)</span>
+          </a>
+        
+      
+              </li>
+      
+    
+          </ul>
+    
+  
+
+      
+              </div>
+      
+                
+                                      <div class="usa-col ">
+
+                              <div class="usa-nav__submenu-item">
+              <span class="usa-nav__submenu-item-dupe-parent">How to Apply</span>
+            </div>
+                  
+      
+      
+                
+  
+          <ul class="usa-nav__submenu-list">
+
+          
+                
+                      <li class="usa-nav__submenu-item preparing-your-proposal">
+      
+      
+      
+                  <a href="https://www.nsf.gov/funding/preparing-proposal">
+            <span>Preparing Your Proposal</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item submitting-your-proposal">
+      
+      
+      
+                  <a href="https://www.nsf.gov/funding/submitting-proposal">
+            <span>Submitting Your Proposal</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item how-we-make-funding-decisions">
+      
+      
+      
+                  <a href="https://www.nsf.gov/funding/merit-review">
+            <span>How We Make Funding Decisions</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item proposal--award-policies--procedures-guide-pappg">
+      
+      
+      
+                  <a href="https://www.nsf.gov/policies/pappg">
+            <span>Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</span>
+          </a>
+        
+      
+              </li>
+      
+    
+          </ul>
+    
+  
+
+      
+              </div>
+      
+                
+                                      <div class="usa-col ">
+
+                              <div class="usa-nav__submenu-item">
+              <span class="usa-nav__submenu-item-dupe-parent">Additional Resources</span>
+            </div>
+                  
+      
+      
+                
+  
+          <ul class="usa-nav__submenu-list">
+
+          
+                
+                      <li class="usa-nav__submenu-item researchgov">
+      
+      
+      
+                  <a href="https://www.research.gov/">
+            <span>Research.gov</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item grantsgov">
+      
+      
+      
+                  <a href="https://www.grants.gov/">
+            <span>Grants.gov</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item baamnsfgov">
+      
+      
+      
+                  <a href="https://baam.nsf.gov/s/">
+            <span>Baam.nsf.gov</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item our-directorates--offices">
+      
+      
+      
+                  <a href="https://www.nsf.gov/about/directorates-offices">
+            <span>Our Directorates &amp; Offices</span>
+          </a>
+        
+      
+              </li>
+      
+    
+          </ul>
+    
+  
+
+      
+              </div>
+      
+    
+                    
+                
+        </div>
+      </div>
+
+    
+  
+
+      
+              </li>
+      
+                
+                      <li class="usa-nav__primary-item manage-your-award">
+      
+              <button type="button" class="usa-accordion__button usa-nav__link
+          " aria-expanded="false" aria-controls="basic-mega-nav-section-2">
+          <span>Manage Your Award</span>
+        </button>
+      
+                
+  
+          <div id="basic-mega-nav-section-2" class="usa-nav__submenu usa-megamenu" hidden="">
+
+      
+        <div class="grid-row grid-gap-3">
+    
+                
+                                      <div class="usa-col ">
+
+                              <div class="usa-nav__submenu-item">
+              <span class="usa-nav__submenu-item-dupe-parent">Guidance For Awardees</span>
+            </div>
+                  
+      
+      
+                
+  
+          <ul class="usa-nav__submenu-list">
+
+          
+                
+                      <li class="usa-nav__submenu-item getting-started">
+      
+      
+      
+                  <a href="https://www.nsf.gov/awards">
+            <span>Getting Started</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item request-a-change-to-your-award">
+      
+      
+      
+                  <a href="https://www.nsf.gov/awards/request-a-change">
+            <span>Request a Change to Your Award</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item report-your-outcomes">
+      
+      
+      
+                  <a href="https://www.nsf.gov/awards/report-your-outcomes">
+            <span>Report Your Outcomes</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item proposal--award-policies--procedures-guide-pappg">
+      
+      
+      
+                  <a href="https://www.nsf.gov/policies/pappg">
+            <span>Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</span>
+          </a>
+        
+      
+              </li>
+      
+    
+          </ul>
+    
+  
+
+      
+              </div>
+      
+                
+                                      <div class="usa-col ">
+
+                              <div class="usa-nav__submenu-item">
+              <span class="usa-nav__submenu-item-dupe-parent">Additional Resources</span>
+            </div>
+                  
+      
+      
+                
+  
+          <ul class="usa-nav__submenu-list">
+
+          
+                
+                      <li class="usa-nav__submenu-item who-to-contact-about-your-award">
+      
+      
+      
+                  <a href="https://www.nsf.gov/awards/who-to-contact">
+            <span>Who to Contact About Your Award</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item researchgov">
+      
+      
+      
+                  <a href="https://www.research.gov/">
+            <span>Research.gov</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item nsf-public-access-repository-par">
+      
+      
+      
+                  <a href="https://par.nsf.gov/">
+            <span>NSF Public Access Repository (PAR)</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item our-directorates--offices">
+      
+      
+      
+                  <a href="https://www.nsf.gov/about/directorates-offices">
+            <span>Our Directorates &amp; Offices</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item search-funded-projects-awards">
+      
+      
+      
+                  <a href="https://www.nsf.gov/awardsearch/">
+            <span>Search Funded Projects (Awards)</span>
+          </a>
+        
+      
+              </li>
+      
+    
+          </ul>
+    
+  
+
+      
+              </div>
+      
+    
+                    
+                
+        </div>
+      </div>
+
+    
+  
+
+      
+              </li>
+      
+                
+                      <li class="usa-nav__primary-item focus-areas">
+      
+              <button type="button" class="usa-accordion__button usa-nav__link
+          " aria-expanded="false" aria-controls="basic-mega-nav-section-3">
+          <span>Focus Areas</span>
+        </button>
+      
+                
+  
+          <div id="basic-mega-nav-section-3" class="usa-nav__submenu usa-megamenu" hidden="">
+
+      
+        <div class="grid-row grid-gap-3">
+    
+                
+                                      <div class="usa-col ">
+
+                              <div class="usa-nav__submenu-item">
+              <span class="usa-nav__submenu-item-dupe-parent">Areas We Fund</span>
+            </div>
+                  
+      
+      
+                
+  
+          <ul class="usa-nav__submenu-list">
+
+          
+                
+                      <li class="usa-nav__submenu-item arctic--antarctic">
+      
+      
+      
+                  <a href="https://www.nsf.gov/focus-areas/arctic-antarctic">
+            <span>Arctic &amp; Antarctic</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item astronomy--space">
+      
+      
+      
+                  <a href="https://www.nsf.gov/focus-areas/astronomy-space">
+            <span>Astronomy &amp; Space</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item biology">
+      
+      
+      
+                  <a href="https://www.nsf.gov/focus-areas/biology">
+            <span>Biology</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item chemistry">
+      
+      
+      
+                  <a href="https://www.nsf.gov/focus-areas/chemistry">
+            <span>Chemistry</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item computing">
+      
+      
+      
+                  <a href="https://www.nsf.gov/focus-areas/computing">
+            <span>Computing</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item earth--environment">
+      
+      
+      
+                  <a href="https://www.nsf.gov/focus-areas/earth-environment">
+            <span>Earth &amp; Environment</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item education--training">
+      
+      
+      
+                  <a href="https://www.nsf.gov/focus-areas/education">
+            <span>Education &amp; Training</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item engineering">
+      
+      
+      
+                  <a href="https://www.nsf.gov/focus-areas/engineering">
+            <span>Engineering</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item facilities--infrastructure">
+      
+      
+      
+                  <a href="https://www.nsf.gov/focus-areas/infrastructure">
+            <span>Facilities &amp; Infrastructure</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item materials-research">
+      
+      
+      
+                  <a href="https://www.nsf.gov/focus-areas/materials">
+            <span>Materials Research</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item mathematics">
+      
+      
+      
+                  <a href="https://www.nsf.gov/focus-areas/mathematics">
+            <span>Mathematics</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item people--society">
+      
+      
+      
+                  <a href="https://www.nsf.gov/focus-areas/people-society">
+            <span>People &amp; Society</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item physics-">
+      
+      
+      
+                  <a href="https://www.nsf.gov/focus-areas/physics">
+            <span>Physics </span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item research-partnerships">
+      
+      
+      
+                  <a href="https://www.nsf.gov/focus-areas/research-partnerships">
+            <span>Research Partnerships</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item technology">
+      
+      
+      
+                  <a href="https://www.nsf.gov/focus-areas/technology">
+            <span>Technology</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item explore-all-focus-areas">
+      
+      
+      
+                  <a href="https://www.nsf.gov/focus-areas">
+            <span>Explore all Focus Areas</span>
+          </a>
+        
+      
+              </li>
+      
+    
+          </ul>
+    
+  
+
+      
+              </div>
+      
+                
+                                      <div class="usa-col ">
+
+                              <div class="usa-nav__submenu-item">
+              <span class="usa-nav__submenu-item-dupe-parent">Additional Resources</span>
+            </div>
+                  
+      
+      
+                
+  
+          <ul class="usa-nav__submenu-list">
+
+          
+                
+                      <li class="usa-nav__submenu-item explore-our-impacts">
+      
+      
+      
+                  <a href="https://www.nsf.gov/impacts">
+            <span>Explore Our Impacts</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item search-funded-projects-awards">
+      
+      
+      
+                  <a href="https://www.nsf.gov/awardsearch/">
+            <span>Search Funded Projects (Awards)</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item nsf-by-the-numbers">
+      
+      
+      
+                  <a href="https://www.nsf.gov/about/about-nsf-by-the-numbers">
+            <span>NSF by the Numbers</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item our-directorates--offices">
+      
+      
+      
+                  <a href="https://www.nsf.gov/about/directorates-offices">
+            <span>Our Directorates &amp; Offices</span>
+          </a>
+        
+      
+              </li>
+      
+    
+          </ul>
+    
+  
+
+      
+              </div>
+      
+    
+                    
+                
+        </div>
+      </div>
+
+    
+  
+
+      
+              </li>
+      
+                
+                      <li class="usa-nav__primary-item news--events">
+      
+              <button type="button" class="usa-accordion__button usa-nav__link
+          " aria-expanded="false" aria-controls="basic-mega-nav-section-4">
+          <span>News &amp; Events</span>
+        </button>
+      
+                
+  
+          <div id="basic-mega-nav-section-4" class="usa-nav__submenu usa-megamenu" hidden="">
+
+      
+        <div class="grid-row grid-gap-3">
+    
+                
+                                      <div class="usa-col ">
+
+                              <div class="usa-nav__submenu-item">
+              <span class="usa-nav__submenu-item-dupe-parent">News</span>
+            </div>
+                  
+      
+      
+                
+  
+          <ul class="usa-nav__submenu-list">
+
+          
+                
+                      <li class="usa-nav__submenu-item news--announcements">
+      
+      
+      
+                  <a href="https://www.nsf.gov/news">
+            <span>News &amp; Announcements</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item science-matters-blog">
+      
+      
+      
+                  <a href="https://www.nsf.gov/science-matters">
+            <span>Science Matters Blog</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item multimedia-gallery">
+      
+      
+      
+                  <a href="https://www.nsf.gov/news/mmg/index.jsp">
+            <span>Multimedia Gallery</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item for-the-press">
+      
+      
+      
+                  <a href="https://www.nsf.gov/news/media-toolkits">
+            <span>For the Press</span>
+          </a>
+        
+      
+              </li>
+      
+    
+          </ul>
+    
+  
+
+      
+              </div>
+      
+                
+                                      <div class="usa-col ">
+
+                              <div class="usa-nav__submenu-item">
+              <span class="usa-nav__submenu-item-dupe-parent">Events</span>
+            </div>
+                  
+      
+      
+                
+  
+          <ul class="usa-nav__submenu-list">
+
+          
+                
+                      <li class="usa-nav__submenu-item upcoming-events">
+      
+      
+      
+                  <a href="https://www.nsf.gov/events">
+            <span>Upcoming Events</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item nsf-75th-anniversary">
+      
+      
+      
+                  <a href="https://www.nsf.gov/75years">
+            <span>NSF 75th Anniversary</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item nsf-grants-conference">
+      
+      
+      
+                  <a href="https://www.nsf.gov/bfa/dias/policy/outreach.jsp#regional">
+            <span>NSF Grants Conference</span>
+          </a>
+        
+      
+              </li>
+      
+    
+          </ul>
+    
+  
+
+      
+              </div>
+      
+    
+                    
+                
+        </div>
+      </div>
+
+    
+  
+
+      
+              </li>
+      
+                
+                      <li class="usa-nav__primary-item about">
+      
+              <button type="button" class="usa-accordion__button usa-nav__link
+          " aria-expanded="false" aria-controls="basic-mega-nav-section-5">
+          <span>About</span>
+        </button>
+      
+                
+  
+          <div id="basic-mega-nav-section-5" class="usa-nav__submenu usa-megamenu" hidden="">
+
+      
+        <div class="grid-row grid-gap-3">
+    
+                
+                                      <div class="usa-col ">
+
+                              <div class="usa-nav__submenu-item">
+              <span class="usa-nav__submenu-item-dupe-parent">Learn About NSF</span>
+            </div>
+                  
+      
+      
+                
+  
+          <ul class="usa-nav__submenu-list">
+
+          
+                
+                      <li class="usa-nav__submenu-item overview">
+      
+      
+      
+                  <a href="https://www.nsf.gov/about">
+            <span>Overview</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item our-directorates--offices">
+      
+      
+      
+                  <a href="https://www.nsf.gov/about/directorates-offices">
+            <span>Our Directorates &amp; Offices</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item nsf--congress">
+      
+      
+      
+                  <a href="https://www.nsf.gov/about/congress">
+            <span>NSF &amp; Congress</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item honorary-awards">
+      
+      
+      
+                  <a href="https://www.nsf.gov/od/honorary-awards">
+            <span>Honorary Awards</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item visit-nsf">
+      
+      
+      
+                  <a href="https://www.nsf.gov/about/visit">
+            <span>Visit NSF</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item contact-us">
+      
+      
+      
+                  <a href="https://www.nsf.gov/about/contact-us">
+            <span>Contact Us</span>
+          </a>
+        
+      
+              </li>
+      
+    
+          </ul>
+    
+  
+
+      
+              </div>
+      
+                
+                                      <div class="usa-col ">
+
+                              <div class="usa-nav__submenu-item">
+              <span class="usa-nav__submenu-item-dupe-parent">Work With NSF</span>
+            </div>
+                  
+      
+      
+                
+  
+          <ul class="usa-nav__submenu-list">
+
+          
+                
+                      <li class="usa-nav__submenu-item careers-at-nsf">
+      
+      
+      
+                  <a href="https://www.nsf.gov/careers">
+            <span>Careers at NSF</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item contracting-with-nsf">
+      
+      
+      
+                  <a href="https://www.nsf.gov/about/contracting">
+            <span>Contracting With NSF</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item partnering-with-nsf">
+      
+      
+      
+                  <a href="https://www.nsf.gov/about/partner-with-NSF">
+            <span>Partnering With NSF</span>
+          </a>
+        
+      
+              </li>
+      
+    
+          </ul>
+    
+  
+
+      
+              </div>
+      
+                
+                                      <div class="usa-col ">
+
+                              <div class="usa-nav__submenu-item">
+              <span class="usa-nav__submenu-item-dupe-parent">Additional Resources</span>
+            </div>
+                  
+      
+      
+                
+  
+          <ul class="usa-nav__submenu-list">
+
+          
+                
+                      <li class="usa-nav__submenu-item national-science-board">
+      
+      
+      
+                  <a href="https://www.nsf.gov/nsb/">
+            <span>National Science Board</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item national-center-for-science--engineering-statistics-ncses">
+      
+      
+      
+                  <a href="https://ncses.nsf.gov/">
+            <span>National Center for Science &amp; Engineering Statistics (NCSES)</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item documents--reports">
+      
+      
+      
+                  <a href="https://www.nsf.gov/documents-reports">
+            <span>Documents &amp; Reports</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item budget-performance--financial-reporting">
+      
+      
+      
+                  <a href="https://www.nsf.gov/about/budget">
+            <span>Budget, Performance &amp; Financial Reporting</span>
+          </a>
+        
+      
+              </li>
+      
+                
+                      <li class="usa-nav__submenu-item staff-directory">
+      
+      
+      
+                  <a href="https://www.nsf.gov/staff">
+            <span>Staff Directory</span>
+          </a>
+        
+      
+              </li>
+      
+    
+          </ul>
+    
+  
+
+      
+              </div>
+      
+    
+                    
+                
+        </div>
+      </div>
+
+    
+  
+
+      
+              </li>
+      
+    
+          </ul>
+    
+  
+
+
+
+
+  </div>
+
+          
+          
+        </div>
+      </nav>
+
+          </div>
+    
+  </section>
+</header>
+</div></div>
+
+    <div id="maindiv">
+        <div class="row detail" data-layout-fragment="content">
+
+            <div id="printFriendly" class="column left hideWhilePrinting">
+                <ul class="no-bullet">
+                    <li class="leftwhite"><a href="/about/index.jsp">Awards</a></li>
+                    <li><img src="images/common/left_nav/awards_left.jpg" width="100%" height="68"
+                            alt="design element" /></li>
+                    <li class="lefttext"><a href="http://www.nsf.gov/awardsearch/index.jsp"><strong>Search
+                                Awards</strong></a></li>
+                    <li class="lefttextdiv"><img src="images/common/greendivide.gif" width="14" height="1" alt="" />
+                    </li>
+                    <li class="lefttext"><a href="https://www.fastlane.nsf.gov/servlet/A6RecentWeeks"><strong>Recent
+                                Awards</strong></a></li>
+                    <li class="lefttextdiv"><img src="images/common/greendivide.gif" width="14" height="1" alt="" />
+                    </li>
+                    <li class="lefttext"><a href="http://www.nsf.gov/awards/presidential.jsp"><strong>Presidential and
+                                Honorary Awards</strong></a></li>
+                    <li class="lefttextdiv"><img src="images/common/greendivide.gif" width="14" height="1" alt="" />
+                    </li>
+                    <li class="lefttext"><a href="http://www.nsf.gov/awards/about.jsp"><strong>About Awards</strong></a>
+                    </li>
+                    <li class="lefttitlelink"><a href="http://www.nsf.gov/awards/managing/index.jsp?org=NSF">How to
+                            Manage Your Award</a></li>
+                    <li class="lefttext"><a
+                            href="http://www.nsf.gov/awards/managing/general_conditions.jsp?org=NSF"><strong>Grant
+                                General Conditions</strong></a></li>
+                    <li class="lefttextdiv"><img src="images/common/greendivide.gif" width="14" height="1" alt="" />
+                    </li>
+                    <li class="lefttext"><a
+                            href="http://www.nsf.gov/awards/managing/co-op_conditions.jsp?org=NSF"><strong>Cooperative
+                                Agreement Conditions</strong></a></li>
+                    <li class="lefttextdiv"><img src="images/common/greendivide.gif" width="14" height="1" alt="" />
+                    </li>
+                    <li class="lefttext"><a
+                            href="http://www.nsf.gov/awards/managing/special_conditions.jsp?org=NSF"><strong>Special
+                                Conditions</strong></a></li>
+                    <li class="lefttextdiv"><img src="images/common/greendivide.gif" width="14" height="1" alt="" />
+                    </li>
+                    <li class="lefttext"><a
+                            href="http://www.nsf.gov/awards/managing/fed_dem_part.jsp?org=NSF"><strong>Federal
+                                Demonstration Partnership</strong></a></li>
+                    <li class="lefttextdiv"><img src="images/common/greendivide.gif" width="14" height="1" alt="" />
+                    </li>
+                    <li class="lefttext"><a href="http://www.nsf.gov/bfa/dias/policy/"><strong>Policy Office
+                                Website</strong></a></li>
+                </ul>
+            </div>
+            
+            <div id="showAward" class="column right text">
+                <p class="clear">
+                <div class="pageheadsubline">
+                    <!--<img class="gwt-Image hideWhilePrinting" src="images/emailIcon.jpg" onclick="emailThis()" alt=""/><br />-->
+                    <strong>Award Abstract # 2341319</strong>
+                </div>
+                <div class="pageheadline"><strong>SBIR Phase I:  File-Based Digital Assets</strong></div>
+                <img src="images/common/greenline.jpg" alt="" width="507" height="4" />
+                </p>
+                <table class="clear">
+                    <tbody>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>NSF Org:</strong></td>
+                            <td class="tabletext2">
+                                <a href="https://beta.nsf.gov/tip/ti">TI</a><br />
+                                <a href="https://beta.nsf.gov/tip/ti">Translational Impacts</a>
+                                <br />
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Recipient:</strong></td>
+                            <td class="tabletext2">
+                                <data-th-block>
+                                    
+                                    <span>KNOX NETWORKS, INC.</span>
+                                </data-th-block>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Initial Amendment Date:</strong>
+                            </td>
+                            <td class="tabletext2">April 22, 2024</td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Latest Amendment Date:</strong>
+                            </td>
+                            <td class="tabletext2">April 22, 2024</td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Award Number:</strong></td>
+                            <td class="tabletext2">2341319</td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Award Instrument:</strong></td>
+                            <td class="tabletext2">Standard Grant</td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Program Manager:</strong></td>
+                            <td class="tabletext2">
+                                <span>Peter Atherton</span>
+                                <span><br/>patherto@nsf.gov</span>
+                                <span> (703)292-8772</span>
+                                <span><br/>TI</span>
+                                <span> Translational Impacts</span>
+                                <span><br/>TIP</span>
+                                <span> Directorate for Technology, Innovation, and Partnerships</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Start Date:</strong></td>
+                            <td class="tabletext2">May 1, 2024</td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>End Date:</strong></td>
+                            <td class="tabletext2">December 31, 2024 (Estimated)</td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Total Intended Award
+                                    Amount:</strong></td>
+                            <td class="tabletext2">$274,193.00</td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Total Awarded Amount to
+                                    Date:</strong></td>
+                            <td class="tabletext2">$274,193.00</td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Funds Obligated to Date:</strong>
+                            </td>
+                            <td class="tabletext2">
+                                <data-th-block>
+                                    
+                                    <span>FY 2024 = $274,193.00</span>
+                                </data-th-block>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>History of Investigator:</strong>
+                            </td>
+                            <td class="tabletext2">
+                                <ul style="list-style: none;">
+                                    <li>
+                                        <span>Natalya</span>
+                                        <span>Thakur</span>
+                                        <data-th-block>
+                                            <data-th-block>
+                                                <span> (Principal Investigator)<br/></span>
+                                                
+                                                <data-th-block>
+                                                    <span>nthakur@knox-networks.com</span>
+                                                </data-th-block>
+                                            </data-th-block>
+                                            
+                                        </data-th-block>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Recipient Sponsored Research
+                                    Office:</strong></td>
+                            <td class="tabletext2">
+                                <data-th-block>
+                                    
+                                    <data-th-block>
+                                        <span>KNOX NETWORKS, INC.<br></span>
+                                        <span>1840 CENTURY PARK E STE 1600<br></span>
+                                        <span>LOS ANGELES<br></span>
+                                        <span>CA</span>
+                                        <span> US</span>
+                                        <span> 90067-2116</span>
+                                        <span><br>(310)556-6850</span>
+                                    </data-th-block>
+                                </data-th-block>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Sponsor Congressional
+                                    District:</strong></td>
+                            <td class="tabletext2">
+                                <data-th-block>
+                                    
+                                    <span>37</span>
+                                </data-th-block>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Primary Place of
+                                    Performance:</strong></td>
+                            <td class="tabletext2">
+                                <data-th-block>
+                                    <span>KNOX NETWORKS, INC.<br></span>
+                                    <span>1840 CENTURY PARK E STE 1600<br></span>
+                                    <span>LOS ANGELES<br></span>
+                                    <span>CA</span>
+                                    <span> US</span>
+                                    <span> 90067-2116</span>
+                                    
+                                </data-th-block>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Primary Place of
+                                    Performance<br />Congressional District:</strong></td>
+                            <td class="tabletext2">
+                                <data-th-block>
+                                    <span>37</span>
+                                </data-th-block>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Unique Entity Identifier
+                                    (UEI):</strong></td>
+                            <td class="tabletext2">
+                                <data-th-block>
+                                    
+                                    <span>XN9GJHACFPS3</span>
+                                </data-th-block>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Parent UEI:</strong></td>
+                            <td class="tabletext2">
+                                <data-th-block>
+                                    
+                                    <span></span>
+                                </data-th-block>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>NSF Program(s):</strong></td>
+                            <td class="tabletext2">
+                                <span>SBIR Phase I</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Primary Program Source:</strong>
+                            </td>
+                            <td class="tabletext2">
+                                <data-th-block>
+                                    
+                                    <span>01002425DB NSF RESEARCH & RELATED ACTIVIT</span>
+                                </data-th-block>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Program Reference
+                                    Code(s):</strong></td>
+                            <td class="tabletext2">
+                                <data-th-block>
+                                    <span>1218, </span>
+                                </data-th-block><data-th-block>
+                                    <span>7927</span>
+                                </data-th-block>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Program Element Code(s):</strong>
+                            </td>
+                            <td class="tabletext2">
+                                <data-th-block>
+                                    <span>537100</span>
+                                </data-th-block>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Award Agency Code:</strong></td>
+                            <td class="tabletext2">
+                                <span>4900</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Fund Agency Code:</strong></td>
+                            <td class="tabletext2">
+                                <span>4900</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tabletext2" style="text-align: right;"><strong>Assistance Listing
+                                    Number(s):</strong></td>
+                            <td class="tabletext2">
+                                <span>47.084</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!--04222021 fund code-->
+                <data-th-block>
+                    <div class="clear margintop25">
+                        <data-th-block>
+                            <data-th-block>
+                                
+                            </data-th-block>
+                        </data-th-block><data-th-block>
+                            <data-th-block>
+                                
+                            </data-th-block>
+                        </data-th-block>
+                    </div>
+                </data-th-block>
+                <br />
+                <!--Abstrct-->
+                <p class="clear margintop25">
+                    <strong class="greybold">ABSTRACT</strong><br />
+                    <img src="images/common/bluefade.jpg" alt="" width="457" height="1" /><br />
+                    <span>The broader impact/commercial potential of this Small Business Innovation Research (SBIR) project is to develop a novel technical approach to regulated forms of digital money and securities, including money and government securities, commercial bank money and corporate securities, and others via tokenization of File-Based Digital Assets (FBDAs). Tokenization represents a new frontier in finance that was originally pioneered in blockchain and cryptocurrency, and has many commercial applications to make payments and securities settlement faster, more transparent, and more reliable in the current regulatory environment. FBDAs are not blockchain based and can improve upon existing global payment solutions in making systems more scalable, easier to integrate with other payment systems, and more privacy-enhancing for institutions and consumers. The platform also allows for open sourcing and increased financial inclusion through the digital identity solution which gives the ability to move assets without friction globally. The commercial potential of FBDAs is significant, and tokenization products can be sold to domestic and international commercial and central banks, and allow third-party providers to build out their own financial products. This project will explore the technical market for FBDA-based tokenization and gain user feedback to improve the technology?s commercialization potential. 
+<br/>
+<br/>This SBIR Phase I project proposes to research and create a production-ready (99.999% availability with defined RPO/RTOs) File-Based Digital Assets (FBDAs) product, a novel tokenization scheme applicable to not only currencies and tokenized deposits, but also to securities and other assets. FBDAs improve upon many of the issues that Distributed Ledger Technology (DLT) and traditional database systems have, particularly in the realms of scalability, interoperability, privacy, and programmability. FBDAs utilize a flexible fixed-denomination asset design that is simpler and more robust than Unspent Transaction Output UTXO-based systems while beating the performance of Account-based systems. In addition, FBDAs allow for a disaggregation of the asset layer from the transaction layer, thereby allowing for easier separation of Personally Identifiable Information (PII) and from programmability rules for specific transactions. The Phase I project proposes to further explore different design choices of FBDAs and get technical and customer validation on achieving scalability, interoperability and privacy prior to large scale commercialization. The Phase I project will include a sandbox environment to test out different architectural setups, modeling of different financial instruments to expand tokenization potential, and to receive customer feedback from real-world financial institutions.
+<br/>
+<br/>This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.</span>
+                </p>
+
+                <!--Publications-->
+                
+
+                <!-- POR -->
+                <data-th-block>
+                    <p class="clear margintop25">
+                        <strong class="greybold">PROJECT OUTCOMES REPORT</strong><br />
+                        <img src="images/common/bluefade.jpg" alt="" width="457" height="1" /><br />
+                    <p>
+                        <strong>Disclaimer</strong>
+                    <p>This Project Outcomes Report for the General Public is displayed verbatim as submitted by the
+                        Principal Investigator (PI) for this award. Any opinions, findings, and conclusions or
+                        recommendations expressed in this Report are those of the PI and do not necessarily reflect the
+                        views of the National Science Foundation; NSF has not approved or endorsed its content.</p>
+                    </p>
+                    <p><div class="porColContainerWBG">
+<div class="porContentCol"><p><span id="docs-internal-guid-6a988b10-7fff-7308-9418-fb02b27f70fe"> </span></p>
+<p dir="ltr"><strong>Knox Networks | SBIR <span id="docs-internal-guid-29707712-7fff-125b-4dd1-54f042382646"><span>2341319</span></span> | Phase I Project Outcomes Report</strong></p>
+<p dir="ltr"><span>Tokenization platforms are currently being tested and used for improving the traditional finance system (within the established, regulated, two-tier banking system and NOT decentralized finance &ldquo;DeFi&rdquo;) with smarter financial instruments. Tokenization looks to solve some of the existing problems of the financial plumbing, including improved operational efficiency for moving financial instruments around the globe. Improvements in this space would lead to lower costs and pain points for consumers, businesses, and financial institutions by bringing finance into the truly digital world. In addition, tokenization also looks to bring improvements to the financial system regarding more opportunities for democratized finance (e.g. purchasing investments at a lower minimum buy-in).</span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span>As described in the US House of Representatives Financial Services Committee hearing titled &ldquo;</span><span>Next Generation Infrastructure: How Tokenization of Real-World Assets Will Facilitate Efficient Markets</span><span>&rdquo; lays out, tokenization looks to bring tremendous upside to the American people and economy through a novel method of representing financial instruments.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span>Despite this potential business upside, there are many technological challenges that have emerged from largely co-opting systems built for decentralized cryptocurrencies and using them for traditional financial applications. Of particular note, there are problems with regard to scalability and to complexity presented to organizations.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span>Knox has developed a differentiated technological approach to help mitigate these challenges presented by Blockchain/DLT. Knox Networks Inc. has continued to further develop a novel shared ledger, tokenization and transaction platform that builds upon common database technologies, and does not rely on the use of complicated Blockchains and Distributed Ledger Technologies (DLTs). Knox&rsquo;s system is useful for improved scalability, interoperability, programmability, and maintainability over existing blockchain/DLT solutions, and provides an alternative technological option for financial institutions seeking to modernize their systems.</span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span>Knox has used the funding from SBIR Phase I to support the further development of the Knox system, including for development, testing and conducting a proof-of-concept project with an external multilateral organization to improve the functionality of Knox&rsquo;s interoperability solution. Knox&rsquo;s findings demonstrate that the technology developed by Knox without the use of DLT can properly interoperate with other DLT technology to provide safer transactions across multiple systems, such as may be required for transacting in different currencies or financial asset types.</span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span>Knox demonstrated this ability through a simulated cross-border project with a multilateral institution, which included a mock international central bank digital currency (CBDC) network. Acting as the technology vendor for one of the jurisdictions within this project, Knox was able to show how blockchain technology is not an inherent requirement for solving the problems financial tokenization is trying to solve.</span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span>Through this project, Knox&rsquo;s findings demonstrate that the technology developed by Knox without the use of DLT can properly interoperate with other DLT technology to provide safer transactions across multiple systems, such as may be required for transacting in different currencies or financial asset types.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span>Hashed Timelock Contracts (HTLCs) as used in this project were used to transact tokenized cash (wCBDC) across different simulated currencies, but HTLCs are also applicable for transacting across a variety of different tokenized assets. This helps solidify the idea that interoperability must be a cornerstone of designing tokenized systems for the future, and existing payment message standards such as ISO 20022 continue to be useful in tokenized transactions. At the same time, further efforts should be invested to enhance and carry rich data about financial instruments.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span>In addition, it is very evident on the numerous steps/checks (FX rate, alias lookup, sanctions) in cross border that can benefit from automation compared to status quo systems. In addition, there is a strong need for coordination about personal information sharing for sanctions screening, in ways that could potentially help improve the privacy experience in cross-border payments while still maintaining compliance.</span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span>This finding will be augmented by further research into developing an even more robust tokenization platform which can be used to model a greater number of financial instruments and fit in a greater number of use cases, including central bank digital currencies, tokenized bank deposits, and securities, and more; in addition to improvements in privacy-enhancing technologies, auditability, and programmability. These use cases and improvements are being explored in financial institutions both domestically and internationally, and Knox seeks to help maintain the lead the US financial system has globally through an innovative and unorthodox approach to helping to modernize financial technology.</span></p>
+<div><span><br /></span></div>
+<p>&nbsp;</p>
+<p>&nbsp;</p><br>
+<p>
+ Last Modified: 06/28/2024<br>
+Modified by: Natalya&nbsp;Thakur</p></div>
+<div class="porSideCol"
+></div>
+</div>
+</p>
+                    </p>
+                </data-th-block>
+                <p class="clear margintop25">
+                    Please report errors in award information by writing to: <a
+                        href="mailto:awardsearch@nsf.gov">awardsearch@nsf.gov</a>.
+                </p>
+                <p id="printFriendly2" class="clear margintop25 hideWhilePrinting">
+                    <a href="javascript:printerFriendlyView();"><img src="images/common/printpage.gif" width="134"
+                            height="23" alt="Print this page" /></a>
+                </p>
+                <p id="printFriendly3" style="text-align: right;" class="clear margintop25 hideWhilePrinting">
+                    <a href="#top"><img src="images/common/top.gif" width="51" height="25"
+                            alt="Back to Top of page" /></a>
+                </p>
+            </div>
+
+            <script type="text/javascript">
+                /*      function emailThis(){
+                          var href = window.location.href;
+                          window.open("emailSubmit.jsp?" + href,"email", "width=550,height=500,resizable=no,status=no,scrollbars=no");
+                      }
+                 */
+                function toggleCitation() {
+                    var eleC = document.getElementsByClassName("toggleTextCitation");
+                    var showC1 = document.getElementById("showC1");
+                    var showC2 = document.getElementById("showC2");
+                    var showC3 = document.getElementById("showC3");
+                    var showC4 = document.getElementById("showC4");
+                    var textC1 = document.getElementById("displayTextC1");
+                    var textC2 = document.getElementById("displayTextC2");
+
+                    if (eleC.length > 0 && eleC[0].style.display == "block") {
+                        for (i = 0; i < eleC.length; i++) {
+                            eleC[i].style.display = "none";
+                        }
+                        // eleC.style.display = "none";
+                        showC1.style.display = "block";
+                        showC2.style.display = "none";
+                        showC3.style.display = "block";
+                        showC4.style.display = "none";
+                        textC1.innerHTML = "Show All";
+                        textC2.innerHTML = "Show All";
+                    } else {
+                        for (i = 0; i < eleC.length; i++) {
+                            eleC[i].style.display = "block";
+                        }
+                        showC1.style.display = "none";
+                        showC2.style.display = "block";
+                        showC3.style.display = "none";
+                        showC4.style.display = "block";
+                        textC1.innerHTML = "Hide Full List";
+                        textC2.innerHTML = "Hide Full List";
+                    }
+                }
+
+
+                function popwin(url) {
+                    //alert('popwin url = ' + url);
+                    var hNewWnd = window.open(url, "", "width=520,height=590,left=480,resizable=yes,status=yes,scrollbars=yes");
+                    if ((document.window != null) && (!hNewWnd.opener))
+                        hNewWnd.opener = document.window;
+                }
+            </script>
+        </div>
+    </div>
+    <div><div>
+
+<div class="usa-footer__return-to-top">
+  <div class="usa-footer__return-to-top--inner">
+          <a class="usa-button usa-button--secondary usa-button__link" href="#"><span class="arrow"></span>Top</a>
+      </div>
+</div>
+
+<footer class="usa-footer usa-footer--medium" role="contentinfo">
+
+  <div class="usa-footer__secondary-section usa-section">
+  <div class="grid-container">
+
+        <div class="grid-row grid-gap-2 nsf--secondary-footer">
+      <div class="usa-agency-information desktop:grid-col-4">
+        <div>
+          
+                          
+
+    
+<div>
+    <div class="usa-logo">
+          
+
+<a class="logo logo-img" href="/" title="NSF - National Science Foundation - Home" aria-label="Home">
+  <div class="logo__wrapper logo--desktop">
+    <img src="https://nsf-gov-resources.nsf.gov/unified-nav/logo-desktop--white.svg" alt="NSF - National Science Foundation - Home" class="logo__image logo__item" />
+  </div>
+  <div class="logo__wrapper logo--mobile">
+    <img src="https://nsf-gov-resources.nsf.gov/unified-nav/logo-desktop--white.svg" alt="NSF - National Science Foundation - Home" class="logo__image logo__item"/>
+  </div>
+</a>
+
+    </div>
+</div>
+
+            
+            
+            
+        </div>
+
+                  <div class="usa-footer__contact-links">
+
+            
+            
+            
+            
+            <address>
+                                            <div class="usa-footer__contact-heading">2415 Eisenhower Ave Alexandria, VA 22314</div>
+                                            <div><a class="nsf--phone" href="tel:(703)292-5111">(703) 292-5111</a></div>
+                          </address>
+
+                              <div class="region region-footer">
+    
+<div id="block-emailupdates" class="block block-block-content block-block-content0888028e-c0e0-438c-8538-7e831c88f2d0 block-emailupdates">
+  
+    
+      
+
+
+                    <div class="clearfix text-formatted field body"><p><span class="icon__envelope">
+  <svg fill="white" height="16" viewBox="0 0 20 16" width="20"> 
+    <path clip-rule="evenodd" d="M18 0H2C0.9 0 0.00999999 0.9 0.00999999 2L0 14C0 15.1 0.9 16 2 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM18 4L10 9L2 4V2L10 7L18 2V4Z" fill="white" fill-rule="evenodd"> 
+    </path> 
+  </svg> </span><a class="nsf--emailsignup" href="https://service.govdelivery.com/accounts/USNSF/subscriber/new?qsp=823">Sign up for email updates</a>
+</p>
+
+</div>
+            
+  </div>
+
+<div id="block-socialmedialinks-footer" class="block-social-media-links block block-social-media-links-block block-socialmedialinks-footer">
+  
+    
+      
+
+<ul class="social-media-links--platforms platforms inline horizontal">
+      <li>
+      <a class="social-media-link-icon--facebook" href="https://www.facebook.com/US.NSF"  >
+        <img src='https://nsf-gov-resources.nsf.gov/unified-nav/facebook-icon_square_32x32.png' alt='Facebook'>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--twitter" href="https://www.twitter.com/NSF"  aria-label="X (formerly known as Twitter)" title="X (formerly known as Twitter)" >
+        <img src='https://nsf-gov-resources.nsf.gov/unified-nav/twitter-icon_square_32x32.png' alt='Twitter'>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--instagram" href="https://www.instagram.com/nsfgov"  >
+        <img src='https://nsf-gov-resources.nsf.gov/unified-nav/instagram-icon_square_32x32.png' alt='Instagram'>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--youtube" href="https://www.youtube.com/user/VideosatNSF"  >
+        <img src='https://nsf-gov-resources.nsf.gov/unified-nav/youtube-icon_square_32x32.png' alt='YouTube'>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--linkedin" href="https://www.linkedin.com/company/national-science-foundation"  >
+        <img src='https://nsf-gov-resources.nsf.gov/unified-nav/linkedin-icon_square_32x32.png' alt='LinkedIn'>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--nsfrss" href="https://nsf.gov/rss"  >
+        <img src='https://nsf-gov-resources.nsf.gov/unified-nav/nsfrss-icon_square_32x32.png' alt='RSS'>
+      </a>
+
+          </li>
+  </ul>
+
+  </div>
+
+  </div>
+
+            
+          </div>
+      </div>
+      
+
+        <div class="desktop:grid-col-8">
+                        <div class="region region-footer-menus">
+    <nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer" class="block block-menu navigation menu--footer">
+          
+    <h2 class="visually-hidden menu--footer__title" id="block-footer-menu"
+
+  >Footer</h2>
+  
+        <div class="menu--footer__content">
+      
+
+    
+        
+    <ul class="menu--footer__list">
+              <li class="menu-item--top menu-item">
+                      <h3><span>About Us</span></h3>
+            
+    
+        
+    <ul class="menu--footer__sublist">
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/about">About NSF</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/careers" data-drupal-link-system-path="node/1989">Careers</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/about/directorates-offices" data-drupal-link-system-path="node/95240">Our Directorates &amp; Offices</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/nsb/">National Science Board</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/about/contact-us" data-drupal-link-system-path="node/95239">Contact Us</a>
+                  </li>
+          </ul>
+
+  
+                  </li>
+              <li class="menu-item--top menu-item">
+                      <h3><span>What&#039;s New</span></h3>
+            
+    
+        
+    <ul class="menu--footer__sublist">
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/news" data-drupal-link-system-path="node/11137">News &amp; Announcements</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/events" data-drupal-link-system-path="events">Events</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/science-matters" data-drupal-link-system-path="group/247">Science Matters Blog</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/news/mmg/index.jsp">Multimedia Gallery</a>
+                  </li>
+          </ul>
+
+  
+                  </li>
+              <li class="menu-item--top menu-item">
+                      <h3><span>Information For</span></h3>
+            
+    
+        
+    <ul class="menu--footer__sublist">
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/funding" data-drupal-link-system-path="group/283">Funding Seekers</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/awards" data-drupal-link-system-path="group/282">NSF Awardees</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/about/congress" data-drupal-link-system-path="group/295">Congress </a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/news/media-toolkits" data-drupal-link-system-path="node/81900">Media</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/focus-areas/education#educational-resources" data-drupal-link-system-path="node/95653">Educators</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/about/meetings" data-drupal-link-system-path="group/293">Panelists</a>
+                  </li>
+          </ul>
+
+  
+                  </li>
+              <li class="menu-item--top menu-item">
+                      <h3><span>Resources</span></h3>
+            
+    
+        
+    <ul class="menu--footer__sublist">
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/documents-reports" data-drupal-link-system-path="node/115745">Documents &amp; Reports</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/about/budget" data-drupal-link-system-path="node/95097">Budget, Performance &amp; Financial Reporting</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/public-access" data-drupal-link-system-path="node/5619">Public Access</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/stopping-harassment" data-drupal-link-system-path="node/95035">Stopping Harassment</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/research-security" data-drupal-link-system-path="node/5664">Research Security</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.nsf.gov/policies/scientific-integrity" data-drupal-link-system-path="node/96952">Scientific Integrity</a>
+                  </li>
+              <li class="menu-item--sub menu-item">
+                      <a href="https://www.research.gov/research-web/">Research.gov</a>
+                  </li>
+          </ul>
+
+  
+                  </li>
+          </ul>
+
+  
+
+
+    </div>
+  </nav>
+
+  </div>
+
+                  </div>
+          </div>
+  </div>
+
+</div>
+
+      <div class="bottom-menu--wrapper">
+      <div class="grid-container bottom-menu">
+          <div class="region region-bottom-menu">
+    <nav role="navigation" aria-labelledby="block-requiredpolicylinks-menu" id="block-requiredpolicylinks" class="block block-menu navigation menu--required-policy-links">
+          
+    <h2 class="visually-hidden menu--required-policy-links__title" id="block-requiredpolicylinks-menu"
+
+  >Required Policy Links</h2>
+  
+        <div class="menu--required-policy-links__content">
+      
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://www.nsf.gov/policies/vulnerability-disclosure">Vulnerability disclosure</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.nsf.gov/oig/">Inspector General</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.nsf.gov/policies/privacy">Privacy</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.nsf.gov/policies/foia">FOIA</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.nsf.gov/od/ocr/no-fear-act" data-drupal-link-system-path="node/112949">No FEAR Act</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.usa.gov/">USA.gov</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.nsf.gov/policies/accessibility">Accessibility</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.nsf.gov/policies/nsf_plain_language.jsp">Plain language</a>
+              </li>
+        </ul>
+  
+
+
+    </div>
+  </nav>
+
+  </div>
+
+      </div>
+    </div>
+  
+  </footer>
+</div></div>
+    <div><div>
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/95268","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","absoluteServerUrl":"https:\/\/www.nsf.gov","currentQuery":{"cache_buster":"422","wrapped":"1"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"user":{"uid":0,"permissionsHash":"c7eef17c40d41e5198c675d2a653fb5012cb3d03b00ae2f49a5c1fbeabfa71b6"}}</script>
+<script src="https://nsf-gov-resources.nsf.gov/unified-nav/js_FNp4vXys-613grxdosdsCZ4EZ5SFXIFtMe5p2LJH8DY.js"></script>
+<script src="https://touchpoints.app.cloud.gov/touchpoints/f0b5f6ee.js" async></script>
+<script src="https://nsf-gov-resources.nsf.gov/unified-nav/touchpoints.min.js" defer></script>
+<script src="https://nsf-gov-resources.nsf.gov/unified-nav/js_ulZxwwUAKfuTjUU0c4N9npCxLKnOIPivpIqgK9cgojc.js"></script>
+
+</div></div>
+    <div> 
+    <span>
+			<!-- Webtrends -->  <span> <script
+					type="text/javascript">
+				var dcsidGlobal = "dcsdnk61n1pdfnrido9thdr8t_7i2p";
+				</script> <!-- START OF SmartSource Data Collector TAG --> <!-- Copyright (c) 1996-2009 WebTrends Inc.  All rights reserved. -->
+				<!-- Version: 8.6.2 --> <!-- Tag Builder Version: 3.0  --> <!-- Created: 12/11/2009 1:35:43 PM -->
+				<script src="js/webtrends.js"
+					type="text/javascript"></script> <!-- ====================================================================================== -->
+				<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+				<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+				<!-- ====================================================================================== -->
+				<script type="text/javascript">
+				//<![CDATA[
+				var _tag=new WebTrends();
+				//]]>>
+				</script> <script type="text/javascript">
+				//<![CDATA[
+				// Add custom parameters here.
+				//_tag.DCSext.param_name=param_value;
+				_tag.dcsCollect();
+				//]]>>
+				</script>
+				<noscript>
+					<div>
+						<img alt="DCSIMG" id="DCSIMG" width="1" height="1"
+							src="http://wt.research.gov/dcsdnk61n1pdfnrido9thdr8t_7i2p/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;DCS.dcscfg=1&amp;WT.tv=8.6.2" />
+					</div>
+				</noscript> <!-- END OF SmartSource Data Collector TAG -->
+    </span>
+    </span>
+  </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (window.opener.printit == true) {
+                $('.hideWhilePrinting').hide();
+                window.opener.printit = false;
+            }
+        });
+
+        function printerFriendlyView() {
+            window.printit = true;
+            var printerFriendlyViewWin = window.open(document.URL, "printerFriendlyViewWin", "menubar=1,toolbar=0,scrollbars=1,alwaysRaised=1,width=600,height=600,resizable=1");
+        }
+    </Script>
+</body>
+
+</html>
