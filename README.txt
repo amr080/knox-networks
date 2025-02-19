@@ -195,6 +195,71 @@ Amount: $274,193   Topic: OT
 The broader impact/commercial potential of this Small Business Innovation Research (SBIR) project is to develop a novel technical approach to regulated forms of digital money and securities, including money and government securities, commercial bank money and corporate securities, and others via tokenization of File-Based Digital Assets (FBDAs). Tokenization represents a new frontier in finance that was originally pioneered in blockchain and cryptocurrency, and has many commercial applications to make payments and securities settlement faster, more transparent, and more reliable in the current regulatory environment. FBDAs are not blockchain based and can improve upon existing global payment solutions in making systems more scalable, easier to integrate with other payment systems, and more privacy-enhancing for institutions and consumers. The platform also allows for open sourcing and increased financial inclusion through the digital identity solution which gives the ability to move assets without friction globally. The commercial potential of FBDAs is significant, and tokenization products can be sold to domestic and international commercial and central banks, and allow third-party providers to build out their own financial products. This project will explore the technical market for FBDA-based tokenization and gain user feedback to improve the technology’s commercialization potential. This SBIR Phase I project proposes to research and create a production-ready (99.999% availability with defined RPO/RTOs) File-Based Digital Assets (FBDAs) product, a novel tokenization scheme applicable to not only currencies and tokenized deposits, but also to securities and other assets. FBDAs improve upon many of the issues that Distributed Ledger Technology (DLT) and traditional database systems have, particularly in the realms of scalability, interoperability, privacy, and programmability. FBDAs utilize a flexible fixed-denomination asset design that is simpler and more robust than Unspent Transaction Output UTXO-based systems while beating the performance of Account-based systems. In addition, FBDAs allow for a disaggregation of the asset layer from the transaction layer, thereby allowing for easier separation of Personally Identifiable Information (PII) and from programmability rules for specific transactions. The Phase I project proposes to further explore different design choices of FBDAs and get technical and customer validation on achieving scalability, interoperability and privacy prior to large scale commercialization. The Phase I project will include a sandbox environment to test out different architectural setups, modeling of different financial instruments to expand tokenization potential, and to receive customer feedback from real-world financial institutions. This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
 
 
+Lastest Filing Information
+Filing Number	241205002542
+Filing Type	BIENNIAL STATEMENT
+Mod Cert Code	32FB
+Approved Date	2024-12-05
+Filing Date	2024-12-05
+Entity Type	FOREIGN BUSINESS CORPORATION
+Current Entity Name	KNOX NETWORKS, INC.
+Effective Date	2024-12-05
+Foreign Incorporation Date	2021-01-26
+Duration	PERPETUAL
+Law Section	BUSINESS CORPORATION - 1304 BUSINESS CORPORATION LAW
+County	New York
+Jurisdiction	DE
+Filer Name	NATALYA THAKUR
+Filer Address	555 Bryant Street, #347
+Palo Alto
+CA 94301
+DOS Process Name	C/O C T CORPORATION SYSTEM
+DOS Process Address	28 Liberty Street
+New York
+NY 10005
 
+Entity Name History
+Filing Date	Entity Name	Filing Number	Type	Status
+2022-03-02	KNOX NETWORKS, INC.	220302002885	Actual	Active
+Entity Address History
+Filing Date	Address Type	Address Name	Address	Filing Number
+2024-12-05	Registered Agent	C T CORPORATION SYSTEM	28 Liberty Street, New York, NY 10005	241205002542
+2024-12-05	Chief Executive Officer	NATALYA THAKUR	555 Bryant Street, #347, Palo Alto, CA 94301	241205002542
+Location Information
+Street Address	28 LIBERTY STREET
+City	NEW YORK
+State	NY
+Zip Code	10005
+
+Corporations in the same location
+Corporation Name	Address	Registered Agent Name	Initial DOS Filing Date
+Challenge Air Cargo Limited	28 Liberty Street, New York, NY 10005, New York, NY 10005		2022-11-16
+Dataops.Live Inc.	28 Liberty Street, Fl 42, New York, NY 10005	C T Corporation System	2022-08-12
+Bwbp Sand Brook, LLC	28 LIBERTY STREET 42nd street, New York, NY 10005		2022-06-24
+Madison 30 Ph LLC	28 Liberty Street 44th Floor, New York, NY 10005		2022-06-30
+Corporations in the same zip code
+Corporation Name	Address	Registered Agent Name	Initial DOS Filing Date
+Best Sicily Bottega LLC	82 Beaver St, Ste 301, New York, NY 10005		2024-12-24
+Lrj Consultants LLC	99 Wall Street, 3335, New York, NY 10005	United States Corporation Agents, Inc.	2024-12-28
+New York Accident Law Group, P.C.	99 wall street, ste 2930, New York, NY 10005		2024-12-27
+Blueair Central Inc.	99 Wall St Ste 4949, New York, NY 10005		2024-12-24
+Aubry Capital Inc.	40 Wall St Fl 28, New York, NY 10005		2025-01-13
+Aurora95 Inc.	26 Cedar St, New York, NY 10005		2024-12-27
+35 Oldfarm Hpd LLC	30 Wall St Fl 8, New York, NY 10005	Patrick William Lees	2025-01-08
+Krispi Cosmetics Corporation	10 Hanover Square Apt 5m, New York, NY 10005		2024-12-17
+Nicole Marie Mcmaster LLC	15 Williams Street #29F, New York, NY 10005		2025-01-07
+74-07 21st Realty LLC	c/o Bedell & Forman LLP, 30 Wall Street, 8th Floor, New York, NY 10005		2025-01-14
+
+https://opengovny.com/corporation/6419523
+
+
+
+Dataset Information
+This dataset includes about three million business entities and corporations registered with New York State Department of State (NYSDOS). The Department of State keeps a record of every filing for every incorporated business in the state of New York. Each business entity is registered with DOS ID, business legal name, type, filing date, registered agent name, office address, etc.
+
+Subject	Business and Economy
+Jurisdiction	State of New York
+Data Provider	New York State Department of State (NYSDOS)
+Source	data.ny.gov
 
 
