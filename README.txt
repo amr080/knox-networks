@@ -71,11 +71,36 @@ https://github.com/knox-networks
 
 https://dev.knoxnetworks.io/docs/welcome
 https://dev.knoxnetworks.io/
-
+https://www.highergov.com/awardee/knox-networks-inc-509025976/
 Fireblocks?
 
 =====================
 Infrastructure software providing real time transaction management across traditional and digital assets. Allows multi-asset businesses (fintechs, exchanges, asset managers) to work effectively across traditional and digital assets. Provides a real time, unified ledger to manage and transact all forms of assets via a single source of truth. This B2B software is API/SDK based, and gives clients the ability to plug into any new asset ecosystem easily.
+https://www.nsf.gov/awardsearch/showAward?AWD_ID=2341319
+Legal Name
+KNOX NETWORKS, INC.
+UEI
+XN9GJHACFPS3
+Primary NAICS
+None Reported
+SBA Certifications
+None
+Self Certifications
+None
+Entity Structure
+Corporate Entity (Not Tax Exempt)
 
-
-
+Award ID	Awarding Agency	Type	Obligated	Start	End	Modified
+2341319	National Science Foundation Logo National Science Foundation 	Project	$274.2K	05/01/24	12/31/24	05/06/24
+Description Sbir phase I: file-based digital assets -the broader impact/commercial potential of this small business innovation research (SBIR) project is to develop a novel technical approach to regulated forms of digital money and securities, including money and government securities, commercial bank money and corporate securities, and others via tokenization of file-based digital assets (FBDAs). Tokenization represents a new frontier in finance that was originally pioneered in blockchain and...
+Overview
+Description
+Supports fundamental research and education in all the non-medical fields of science and engineering (medical counterpart is the National Institutes of Health)
+Type
+Civilian Agency
+Website
+https://www.nsf.gov/
+Budget Justification
+https://www.nsf.gov/cj
+Prime Contract Set Aside Goal (FY23)
+24% 
