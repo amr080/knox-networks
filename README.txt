@@ -1,3 +1,5 @@
+KNOX = CBDC initiative
+
 
 Sec. 5.  Prohibition of Central Bank Digital Currencies. 
 
