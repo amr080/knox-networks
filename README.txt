@@ -1,4 +1,31 @@
 
+Sec. 5.  Prohibition of Central Bank Digital Currencies. 
+
+(a)  Except to the extent required by law, agencies are hereby prohibited from undertaking any action to establish, issue, or promote CBDCs within the jurisdiction of the United States or abroad.
+
+(b)  Except to the extent required by law, any ongoing plans or initiatives at any agency related to the creation of a CBDC within the jurisdiction of the United States shall be immediately terminated, and no further actions may be taken to develop or implement such plans or initiatives.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.whitehouse.gov/presidential-actions/2025/01/strengthening-american-leadership-in-digital-financial-technology/
+https://www.whitehouse.gov/presidential-actions/2025/01/strengthening-american-leadership-in-digital-financial-technology/#:~:text=Sec.%205.%20%C2%A0Prohibition,plans%20or%20initiatives.
 
 
 
