@@ -104,3 +104,45 @@ Budget Justification
 https://www.nsf.gov/cj
 Prime Contract Set Aside Goal (FY23)
 24% 
+https://www.nsf.gov/awardsearch/showAward?AWD_ID=2341319
+
+NSF Org:	TI
+Translational Impacts
+Recipient:	KNOX NETWORKS, INC.
+Initial Amendment Date:	April 22, 2024
+Latest Amendment Date:	April 22, 2024
+Award Number:	2341319
+Award Instrument:	Standard Grant
+Program Manager:	Peter Atherton
+patherto@nsf.gov  (703)292-8772
+TI  Translational Impacts
+TIP  Directorate for Technology, Innovation, and Partnerships
+Start Date:	May 1, 2024
+End Date:	December 31, 2024 (Estimated)
+Total Intended Award Amount:	$274,193.00
+Total Awarded Amount to Date:	$274,193.00
+Funds Obligated to Date:	FY 2024 = $274,193.00
+History of Investigator:	
+Natalya Thakur (Principal Investigator)
+nthakur@knox-networks.com
+Recipient Sponsored Research Office:	KNOX NETWORKS, INC.
+1840 CENTURY PARK E STE 1600
+LOS ANGELES
+CA  US  90067-2116
+(310)556-6850
+Sponsor Congressional District:	37
+Primary Place of Performance:	KNOX NETWORKS, INC.
+1840 CENTURY PARK E STE 1600
+LOS ANGELES
+CA  US  90067-2116
+Primary Place of Performance
+Congressional District:	37
+Unique Entity Identifier (UEI):	XN9GJHACFPS3
+Parent UEI:	
+NSF Program(s):	SBIR Phase I
+Primary Program Source:	01002425DB NSF RESEARCH & RELATED ACTIVIT
+Program Reference Code(s):	1218, 7927
+Program Element Code(s):	537100
+Award Agency Code:	4900
+Fund Agency Code:	4900
+Assistance Listing Number(s):	47.084
