@@ -146,3 +146,25 @@ Program Element Code(s):	537100
 Award Agency Code:	4900
 Fund Agency Code:	4900
 Assistance Listing Number(s):	47.084
+
+
+
+
+
+The broader impact/commercial potential of this Small Business Innovation Research (SBIR) project is to develop a novel technical approach to regulated forms of digital money and securities, including money and government securities, commercial bank money and corporate securities, and others via tokenization of File-Based Digital Assets (FBDAs). Tokenization represents a new frontier in finance that was originally pioneered in blockchain and cryptocurrency, and has many commercial applications to make payments and securities settlement faster, more transparent, and more reliable in the current regulatory environment. FBDAs are not blockchain based and can improve upon existing global payment solutions in making systems more scalable, easier to integrate with other payment systems, and more privacy-enhancing for institutions and consumers. The platform also allows for open sourcing and increased financial inclusion through the digital identity solution which gives the ability to move assets without friction globally. The commercial potential of FBDAs is significant, and tokenization products can be sold to domestic and international commercial and central banks, and allow third-party providers to build out their own financial products. This project will explore the technical market for FBDA-based tokenization and gain user feedback to improve the technology?s commercialization potential.
+
+This SBIR Phase I project proposes to research and create a production-ready (99.999% availability with defined RPO/RTOs) File-Based Digital Assets (FBDAs) product, a novel tokenization scheme applicable to not only currencies and tokenized deposits, but also to securities and other assets. FBDAs improve upon many of the issues that Distributed Ledger Technology (DLT) and traditional database systems have, particularly in the realms of scalability, interoperability, privacy, and programmability. FBDAs utilize a flexible fixed-denomination asset design that is simpler and more robust than Unspent Transaction Output UTXO-based systems while beating the performance of Account-based systems. In addition, FBDAs allow for a disaggregation of the asset layer from the transaction layer, thereby allowing for easier separation of Personally Identifiable Information (PII) and from programmability rules for specific transactions. The Phase I project proposes to further explore different design choices of FBDAs and get technical and customer validation on achieving scalability, interoperability and privacy prior to large scale commercialization. The Phase I project will include a sandbox environment to test out different architectural setups, modeling of different financial instruments to expand tokenization potential, and to receive customer feedback from real-world financial institutions.
+
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+
+
+
+
+
+
+
+
+
+
+
+
